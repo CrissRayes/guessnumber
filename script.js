@@ -16,6 +16,7 @@ const initializeGame = () => {
   document.querySelector('.number').textContent = '?';
   document.querySelector('.guess').value = '';
   document.querySelector('.check').disabled = false;
+  document.querySelector('body').style.backgroundColor = '#222';
 };
 
 const updateHighScore = () => {
